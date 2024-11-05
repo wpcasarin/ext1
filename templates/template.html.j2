@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Protocolo numero: {{ protocol }}</title>
+</head>
+
+<body>
+
+
+    <h2>Exemplo de imagem.</h2>
+
+    <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.kahkqi0j8i74WaOPRUie3gAAAA%26pid%3DApi&f=1&ipt=7b1dd5c5147601099e4abc33709b09e39ab11c71df23a76a2a0539303fb9c205&ipo=images"
+        alt="Teste" />
+
+    <h2>Lista de vestigios</h2>
+    <ul>
+        {% for v in vestigios %}
+        <li>{{ v['id'] }} - {{v['resumo']}}</li>
+        {% endfor %}
+    </ul>
+</body>
+
+</html>

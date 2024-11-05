@@ -1,0 +1,139 @@
+{
+    "protocolo": 139,
+    "dataEntrada": null,
+    "listaProcedimentoPolicial": [],
+    "listaExameSolicitacao": [
+        {
+            "id": 89,
+            "descricao": "Exame Pericial em Local de Inc\u00eandio Florestal",
+            "natureza": 14
+        }
+    ],
+    "setor": {
+        "id": 13,
+        "descricao": "NELMA",
+        "descricaoCompleta": "N\u00daCLEO ESPECIALIZADO DE ENGENHARIA LEGAL E MEIO AMBIENTE"
+    },
+    "documentoProcedimentoPericial": {
+        "id": null,
+        "dataInclusao": 1612363024817,
+        "numero": 30,
+        "ano": 2021,
+        "sgd": null,
+        "setor": {
+            "id": 2,
+            "descricao": "DPC",
+            "descricaoCompleta": "DIRETORIA DE PERICIA CRIMINAL"
+        },
+        "tipoDocumento": {
+            "id": 2,
+            "descricao": "Ocorr\u00eancia",
+            "abreviatura": "OCO"
+        },
+        "autoridadeRequisitante": null,
+        "pdf": null
+    },
+    "laudo": {
+        "dataInclusao": 1612363440740,
+        "dataEntrega": null,
+        "sgdEntrega": null,
+        "numeroCompleto": "2021.0000029"
+    },
+    "listaVestigio": [
+        {
+            "id": 162,
+            "numeroVestigioRequisitante": null,
+            "numeroVestigioPericiaCriminal": null,
+            "semCadeiaCustodia": true,
+            "tipoEvidencia": "OBJETO",
+            "resumo": "Descri\u00e7\u00e3o: Recarregador de aparelho celular",
+            "dadosVestigio": {
+                "id": 23,
+                "descricao": "Recarregador de aparelho celular"
+            },
+            "observacao": "",
+            "ultimoLacre": null,
+            "ultimaCustodia": null,
+            "ultimoLacreAcondicionamento": null
+        },
+        {
+            "id": 159,
+            "numeroVestigioRequisitante": null,
+            "numeroVestigioPericiaCriminal": "139/2021/12025/NELMA",
+            "semCadeiaCustodia": false,
+            "tipoEvidencia": "MATERIAL_QUIMICO_BIOLOGICO",
+            "resumo": "Tipo: L\u00edquido | Apresenta\u00e7\u00e3o Ampola(s) | Cor: Amarelada | Quantidade apresentada: 250.0ml | Utilizado no exame: 150.0ml",
+            "dadosVestigio": {
+                "id": 40,
+                "idEvidenciaMaterialTipo": 20,
+                "evidenciaMaterialTipo": "L\u00edquido",
+                "idEvidenciaMaterialApresentacao": 12,
+                "evidenciaMaterialApresentacao": "Ampola(s)",
+                "idCor": 8,
+                "cor": "Amarelada",
+                "quantidade": 250.0,
+                "unidadeMedida": "Mililitro",
+                "quantidadeUtilizadaExame": 150.0,
+                "unidadeMedidaUtilizadaExame": "Mililitro",
+                "quantidadeUtilizadaAliquotagem": null,
+                "unidadeMedidaUtilizadaAliquotagem": null,
+                "substanciaProscrita": null
+            },
+            "observacao": "",
+            "ultimoLacre": {
+                "id": 89,
+                "numero": "260280",
+                "tipoLacre": "Envelope de Seguran\u00e7a"
+            },
+            "ultimaCustodia": {
+                "id": 154,
+                "custodia": "Kim  Rocha Rocha",
+                "tipoCustodia": "Servidor"
+            },
+            "ultimoLacreAcondicionamento": null
+        }
+    ],
+    "listaEnvolvido": [],
+    "solicitacaoOcorrencia": {
+        "id": 37,
+        "setorAcionamento": {
+            "id": 235,
+            "descricao": "DEMAG",
+            "descricaoCompleta": "Delegacia Especializada de Repress\u00e3o a Crimes contra o Meio Ambiente e Conflitos Agr\u00e1rios - Palmas"
+        },
+        "municipio": {
+            "id": 93866,
+            "descricao": "PALMAS"
+        },
+        "uf": {
+            "id": null,
+            "pais": null,
+            "abreviacao": null
+        },
+        "bairro": "\u00c1rea Rural de Palmas",
+        "dataInclusao": 1612363024817,
+        "dataAcionamento": 1612353600000,
+        "dataFinalizacao": null,
+        "descricaoLogradouro": "ch\u00e1cara pouso alto",
+        "numeroLogradouro": "",
+        "complementoLogradouro": "",
+        "flgDecimal": false,
+        "latitude": "",
+        "longitude": "",
+        "observacao": "agentes acompanharam a ocorr\u00eancia",
+        "dataHoraOcorrencia": 1612353600000,
+        "dataHoraAtendimentoPerito": 1612355400000,
+        "dataHoraLiberacaoLocal": 1612360800000,
+        "dataHoraMorte": null,
+        "localMorte": null,
+        "tipoAcionamento": "TELEFONE",
+        "peritoResponsavelLocal": {
+            "nome": null,
+            "cpf": null,
+            "matricula": null,
+            "cargo": null
+        },
+        "qualificacao": null
+    },
+    "listaDestinos": []
+}
